@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   array = string.split(" ")
-  array.collect {|words| words.reverse.join(" ")}
+  array.collect {|words| words.reverse}
 end
   
 reverse_each_word("Hi you")
